@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "EuropeExt";
+    src: url("../fonts/EuropeExt.eot");
+    src: url("../fonts/EuropeExt.woff") format("woff"), url("../fonts/EuropeExt.ttf") format("truetype"), url("../fonts/EuropeExt.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "EuropeExt-Bold";
+    src: url("../fonts/EuropeExt-Bold.eot");
+    src: url("../fonts/EuropeExt-Bold.woff") format("woff"), url("../fonts/EuropeExt-Bold.ttf") format("truetype"), url("../fonts/EuropeExt-Bold.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
