@@ -21,6 +21,7 @@ html, body {
         }
     }
 
+
 ul, li {
     display: inline-block;
     padding: 0;
@@ -55,6 +56,7 @@ h1, h2 {
         }
     }
 
+
 .logo {
     padding: 0;
 }
@@ -84,6 +86,15 @@ h1, h2 {
         }
     }
 
+    @media screen and (min-width: 1024px) and (max-width: 1280px){
+        .main-logo {
+            position: absolute;
+            text-align: center;
+            top: 12%;
+            left: 0%;
+        }
+    }
+
 .header-logo img {
     max-width: 100%;
     height: auto;
@@ -97,6 +108,13 @@ h1, h2 {
     }
 
     @media screen and (min-width: 992px) and (max-width: 1024px){
+        .header-logo > img {
+            max-width: 75%;
+            height: auto;
+        }
+    }
+
+    @media screen and (min-width: 1024px) and (max-width: 1280px){
         .header-logo > img {
             max-width: 75%;
             height: auto;
@@ -323,6 +341,12 @@ h1 {
         }
     }
 
+    @media screen and (min-width: 1024px) and (max-width: 1280px){
+        .text-team {
+            top: -150px;
+        }
+    }
+
 .text-team ul {
     position: absolute;
     top: 32%;
@@ -379,9 +403,22 @@ h1 {
         }
     }
 
+    @media screen and (min-width: 1024px) and (max-width: 1280px){
+        .team-photo {
+            top: -85px;
+        }
+    }
+
     @media screen and (min-width: 992px) and (max-width: 1024px){
         .team-photo > img {
             max-width: 75vh;
+            height: auto;
+        }
+    }
+
+    @media screen and (min-width: 1024px) and (max-width: 1280px){
+        .team-photo > img {
+            max-width: 85vh;
             height: auto;
         }
     }
@@ -394,6 +431,12 @@ h1 {
     @media screen and (min-width: 992px) and (max-width: 1024px){
         .achievement {
             top: -80px;
+        }
+    }
+
+    @media screen and (min-width: 1024px) and (max-width: 1280px){
+        .achievement {
+            top: -100px;
         }
     }
 
@@ -420,6 +463,13 @@ h1 {
     @media screen and (min-width: 992px) and (max-width: 1024px){
         .cup > img {
             max-width: 75vh;
+            height: auto;
+        }
+    }
+
+    @media screen and (min-width: 1024px) and (max-width: 1280px){
+        .cup > img {
+            max-width: 85vh;
             height: auto;
         }
     }
@@ -458,9 +508,21 @@ h1 {
     top: -128px;
 }
 
+    @media screen and (min-width: 1024px) and (max-width: 1280px){
+        .achievement-ph {
+            left: -120px;
+        }
+    }
+
     @media screen and (min-width: 992px) and (max-width: 1024px){
         .text-achievement {
             top: -150px;
+        }
+    }
+
+    @media screen and (min-width: 1024px) and (max-width: 1280px){
+        .text-achievement {
+            top: -110px;
         }
     }
 
@@ -515,6 +577,12 @@ h1 {
         }
     }
 
+    @media screen and (min-width: 1024px) and (max-width: 1280px){
+        .coach {
+            top: -200px;
+        }
+    }
+
 .coach-info {
     position: absolute;
     font-family: "EuropeExt-Bold", sans-serif;
@@ -550,6 +618,12 @@ h1 {
         }
     }
 
+    @media screen and (min-width: 1024px) and (max-width: 1280px){
+        .text-coach {
+            top: -110px;
+        }
+    }
+
 .text-coach ul {
     position: absolute;
     top: 300px;
@@ -564,6 +638,12 @@ h1 {
     @media screen and (min-width: 992px) and (max-width: 1024px){
         .text-coach ul {
             top: 180px;
+        }
+    }
+
+    @media screen and (min-width: 1024px) and (max-width: 1280px){
+        .text-coach ul {
+            top: 285px;
         }
     }
 
@@ -622,6 +702,13 @@ h1 {
         }
     }
 
+    @media screen and (min-width: 1024px) and (max-width: 1280px){
+        .coach-photo > img {
+            max-width: 85vh;
+            height: auto;
+        }
+    }
+
 .groups {
     position: relative;
 }
@@ -635,6 +722,12 @@ h1 {
     @media screen and (min-width: 992px) and (max-width: 1024px){
         .groups {
             top: -190px;
+        }
+    }
+
+    @media screen and (min-width: 1024px) and (max-width: 1280px){
+        .groups {
+            top: -220px;
         }
     }
 
@@ -689,9 +782,23 @@ h1 {
         }
     }
 
+    @media screen and (min-width: 1024px) and (max-width: 1280px){
+        .rozklad > img {
+            max-width: 120vh;
+            height: auto;
+            left: 8%;
+        }
+    }
+
     @media screen and (min-width: 992px) and (max-width: 1024px){
         .contacts {
             margin-top: -120px;
+        }
+    }
+
+    @media screen and (min-width: 1024px) and (max-width: 1280px){
+        .contacts {
+            margin-top: -110px;
         }
     }
 
@@ -728,6 +835,14 @@ h1 {
         }
     }
 
+    @media screen and (min-width: 1024px) and (max-width: 1280px){
+        .text-contacts > img {
+            max-width: 85vh;
+            height: auto;
+            left: -120px;
+        }
+    }
+
 .contacts-info {
     font-family: "EuropeExt-Bold", sans-serif;
     font-size: 22px;
@@ -755,6 +870,16 @@ h1 {
             text-align: center;
             left: 7px;
             top: 150px;
+        }
+    }
+
+    @media screen and (min-width: 1024px) and (max-width: 1280px){
+        .contacts-info {
+            font-family: "EuropeExt-Bold", sans-serif;
+            font-size: 17px;
+            color: #f80000;
+            text-align: center;
+            left: -20px;
         }
     }
 
@@ -789,6 +914,18 @@ h1 {
         }
     }
 
+    @media screen and (min-width: 1024px) and (max-width: 1280px){
+        .niko {
+            font-family: "EuropeExt", sans-serif;
+            font-size: 15px;
+            color: #ffffff;
+            letter-spacing: 0.50px;
+            line-height: 25px;
+            left: 20px;
+            top: 210px;
+        }
+    }
+
 .telephone {
     font-family: "EuropeExt", sans-serif;
     font-size: 18px;
@@ -820,6 +957,18 @@ h1 {
         }
     }
 
+    @media screen and (min-width: 1024px) and (max-width: 1280px){
+        .telephone {
+            font-family: "EuropeExt", sans-serif;
+            font-size: 15px;
+            color: #ffffff;
+            letter-spacing: 0.50px;
+            line-height: 25px;
+            left: 20px;
+            top: 240px;
+        }
+    }
+
 .maps {
     top: 103px;
     position:relative;
@@ -844,10 +993,24 @@ h1 {
         }
     }
 
+    @media screen and (min-width: 1024px) and (max-width: 1280px){
+        .maps {
+            top: 66px;
+            left: 95px;
+        }
+    }
+
     @media screen and (min-width: 992px) and (max-width: 1024px){
         .maps iframe {
             width: 425px;
             height: 425px;
+        }
+    }
+
+    @media screen and (min-width: 1024px) and (max-width: 1280px){
+        .maps iframe {
+            width: 495px;
+            height: 495px;
         }
     }
 
