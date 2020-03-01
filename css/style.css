@@ -802,6 +802,12 @@ h1 {
         }
     }
 
+    @media screen and (min-width: 1280px) {
+        .contacts {
+            margin-top: 90px;
+        }
+    }
+
 .contacts-ph {
     position: relative;
     left: -380px;
